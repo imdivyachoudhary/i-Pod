@@ -1,0 +1,98 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.Main-box {
+  margin: 50px;
+  height: 600px;
+  width: 350px;
+  background-color: #d1cdcd;
+  border-radius: 25px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Display-Screen {
+  height: 50%;
+  width: 100%;
+  border: solid black 5px;
+  border-radius: 25px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.Control-Disc {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Outer-Circle {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.Inner-Circle {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: #d1cdcd;
+  top: 60px;
+  left: 60px;
+}
+
+.Menu {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.Menu-List {
+  padding: 5px;
+  width: 50%;
+  background-color: white;
+}
+
+.Menu-Image {
+  width: 50%;
+  background-image: url("https://image.winudf.com/v2/image/Y29tLnphaHJhYXBwcy5sYW5kc2NhcGVfc2NyZWVuXzNfMTUwNDUzMTA1OF8wMDI/screen-3.webp?fakeurl=1&type=.webp");
+  /* background-repeat: no-repeat; */
+  background-size: 100%;
+}
+
+.Menu-List ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.Menu-List ul li {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Menu-List ul li p {
+  margin-left: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.Menu-List ul li .right-arrow {
+  margin-right: 10px;
+  height: 20px;
+}
+
+.active-li {
+  background-color: rgb(0, 162, 255);
+  color: white;
+}
